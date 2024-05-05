@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="PatientManager">
+      <HintPath>..\..\PatientManager\PatientManager\obj\Debug\net8.0\PatientManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
