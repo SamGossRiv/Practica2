@@ -31,8 +31,8 @@ namespace Patients
                     Description = "API para gestionar pacientes de una clínica",
                     Contact = new OpenApiContact
                     {
-                        Name = "Tu nombre",
-                        Email = "tu@email.com",
+                        Name = "Clinic API",
+                        Email = "clinic@example.com",
                         Url = new Uri("https://example.com"),
                     }
                 });
