@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Patients\\Startup.cs",
               "ToolTip": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\Patients\\Patients\\Startup.cs",
               "RelativeToolTip": "Patients\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:19:45.499Z",
               "EditorCaption": ""
@@ -51,7 +51,8 @@
               "RelativeToolTip": "Patients\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:13:26.825Z"
+              "WhenOpened": "2024-05-05T15:13:26.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +77,8 @@
               "RelativeToolTip": "Patients\\Controllers\\PatientsController.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:11:10.304Z"
+              "WhenOpened": "2024-05-05T14:11:10.304Z",
+              "EditorCaption": ""
             }
           ]
         }

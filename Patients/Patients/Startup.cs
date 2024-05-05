@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using System;
+using Serilog;
+using Serilog.Events;
 
 namespace Patients
 {
@@ -45,10 +47,23 @@ namespace Patients
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                // Registrar en la consola y en un archivo *.log en entorno de desarrollo
+                Log.Logger = new LoggerConfiguration()
+                    .WriteTo.Console()
+                    .WriteTo.File("logs\\devlog-.txt", rollingInterval: RollingInterval.Day)
+                    .CreateLogger();
+            }
+            else
+            {
+                // Registrar solo en un archivo *.log en entorno de calidad
+                Log.Logger = new LoggerConfiguration()
+                    .WriteTo.File("logs\\qalog-.txt", rollingInterval: RollingInterval.Day)
+                    .CreateLogger();
             }
 
-            app.UseRouting();
+            app.UseSerilogRequestLogging(); // Agregar middleware para registrar solicitudes HTTP
 
+            app.UseRouting();
             app.UseAuthorization();
 
             // Configuración de Swagger UI
