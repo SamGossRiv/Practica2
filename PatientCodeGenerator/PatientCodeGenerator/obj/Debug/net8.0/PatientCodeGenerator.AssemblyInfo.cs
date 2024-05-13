@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PatientManager")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PatientCodeGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f2cb51dcae308a6244835255cebf8260ac7eb4")]
-[assembly: System.Reflection.AssemblyProductAttribute("PatientManager")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PatientManager")]
+[assembly: System.Reflection.AssemblyProductAttribute("PatientCodeGenerator")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PatientCodeGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
