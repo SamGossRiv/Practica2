@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\PatientCodeGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B563C16-90CC-466A-BE0C-19F02023C169}|PatientCodeGenerator\\PatientCodeGenerator.csproj|c:\\users\\samuel\\desktop\\practica2\\patientcodegenerator\\patientcodegenerator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B563C16-90CC-466A-BE0C-19F02023C169}|PatientCodeGenerator\\PatientCodeGenerator.csproj|solutionrelative:patientcodegenerator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B563C16-90CC-466A-BE0C-19F02023C169}|PatientCodeGenerator\\PatientCodeGenerator.csproj|c:\\users\\samuel\\desktop\\practica2\\patientcodegenerator\\patientcodegenerator\\patientcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B563C16-90CC-466A-BE0C-19F02023C169}|PatientCodeGenerator\\PatientCodeGenerator.csproj|solutionrelative:patientcodegenerator\\patientcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\PatientCodeGenerator\\PatientCodeGenerator\\Class1.cs",
-              "RelativeDocumentMoniker": "PatientCodeGenerator\\Class1.cs",
-              "ToolTip": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\PatientCodeGenerator\\PatientCodeGenerator\\Class1.cs",
-              "RelativeToolTip": "PatientCodeGenerator\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PatientCodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\PatientCodeGenerator\\PatientCodeGenerator\\PatientCodeGenerator.cs",
+              "RelativeDocumentMoniker": "PatientCodeGenerator\\PatientCodeGenerator.cs",
+              "ToolTip": "C:\\Users\\SAMUEL\\Desktop\\Practica2\\PatientCodeGenerator\\PatientCodeGenerator\\PatientCodeGenerator.cs",
+              "RelativeToolTip": "PatientCodeGenerator\\PatientCodeGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T23:35:59.865Z",
               "EditorCaption": ""
